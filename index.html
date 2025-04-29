@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Divyam Misser - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary-color: #34495E;
+      --secondary-color: #3498DB;
+      --background-color: #f2f2f2;
+      --text-color: #333;
+      --card-background: #ffffff;
+      --font-family: 'Poppins', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 300;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #90e0ef;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: disc inside;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: var(--card-background);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: var(--secondary-color);
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: var(--primary-color);
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Divyam Misser</h1>
+  <p>BCA (Hons.) Cybersecurity Student at Lovely Professional University</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#experience">Experience</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <div class="card" style="text-align: center;">
+    <h2>About Me</h2>
+    <p>I am a computer security enthusiast with an emphasis on digital forensics. With programming skills in C++, Java, and Python, SQL, database management, and web security, I plan to use my knowledge to pursue cybercrime investigation. Having a problem-solving experience with a difference due to the construction and tax law background, I look to be a digital forensic expert.</p>
+    <p>📞 +91 62840 88412 | 📧 divyammisser@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/divyam-misser-565797353/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/DivyamM8" target="_blank">GitHub</a>
+    </p>
+    <a class="button" href="DivyamCV.docx" download>Download CV</a>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="card">
+    <h2>Skills & Technologies</h2>
+    <ul>
+      <li>C, C++, Python, Bash, SQL</li>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>Kali Linux, Wireshark, Metasploit, Nmap, Burp Suite</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="card">
+    <h2>Projects</h2>
+    <h3>Solo Traveller WebApp</h3>
+    <p>A responsive and secure platform designed for solo travelers, offering detailed guides about nearby hotels, restaurants, tourist spots, and emergency services. It includes travel safety features like SOS alerts and trusted stays for female travelers.</p>
+    <p><strong>Tech Used:</strong> HTML, CSS, JavaScript, MySQL, Google Maps API</p>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="card">
+    <h2>Certifications & Courses</h2>
+    <ul>
+      <li>Ethical Hacker Certification - Cisco Networking Academy</li>
+    </ul>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="card">
+    <h2>Experience</h2>
+    <h3>M/S Puneet Misser and Associates (Law Firm), Punjab, India</h3>
+    <p><strong>Intern | July 2023 – August 2024</strong></p>
+    <ul>
+      <li>Filed income tax returns and resolved litigation with the Income Tax and GST departments.</li>
+      <li>Worked with MS Office and Excel for documentation.</li>
+      <li>Handled clerical and administrative tasks in a professional environment.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="card">
+    <h2>Achievements & Publications</h2>
+    <ul>
+      <li><strong>Research Paper:</strong> "AI-Powered Detection and Prevention of Deepfake Deception in Cyber Influence Operations"</li>
+      <li>Published in the <em>Journal of Research and Innovation in Technology, Commerce and Management (JRITM)</em>, Volume 2, Issue 4 — April 2025. </li>
+      <li> <strong>ISSN:</strong> 3049-3129.</li>
+    </ul>
+  </div>
+</section>
+
